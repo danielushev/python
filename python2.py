@@ -1,6 +1,6 @@
 import os
 
-with open('/home/daniel/Desktop/bundles/results.txt', 'r') as reader:
+with open('file_path/results.txt', 'r') as reader:
      # Read and print the entire file line by line
      for line in reader.readlines():
           line2 = line.replace(".", "")
